@@ -1,1 +1,7 @@
-
+.model-overlay {
+  margin-top: 30px;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  background-color: aqua;
+}
