@@ -6,7 +6,7 @@ const Modal = ({ setOnClose, handle }) => {
       <button className="model-close" onClick={handle}>
         Close
       </button>
-      <p className="model-p">This is the content of the modal.</p>
+      <p className="model p">This is the content of the modal.</p>
     </div>
   );
 };
