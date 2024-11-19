@@ -1,15 +1,12 @@
 import React from "react";
 
-const Modal = ({ setOnClose }) => {
+const Modal = ({ setOnClose, handle }) => {
   return (
-    <div className="model-overlay" onClick={() => setOnClose((prev) => !prev)}>
-      <button
-        className="model-close"
-        onClick={() => setOnClose((prev) => !prev)}
-      >
+    <div className="model-overlay" onClick={() => setOnClose(false)}>
+      <button className="model-close" onClick={handle}>
         Close
       </button>
-      <p>This is the content of the modal.</p>
+      <p className="model-p">This is the content of the modal.</p>
     </div>
   );
 };
